@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#theDiv {
+
+    display:none;
+
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("#show").click(function(){
+    $("#theDiv").show();
+  });
+
+  $("#hide").click(function(){
+    $("#theDiv").hide();
+  });
+});
+
+</script>
+</head>
+<body>
+
+<button id="show">Show</button>
+<button id="hide">Hide</button>
+
+<div id="theDiv"><img id="theImg" src="kedi.jpg" /></div>
+
+</body>
+</html>
